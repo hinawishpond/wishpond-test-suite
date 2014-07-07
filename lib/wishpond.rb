@@ -21,6 +21,7 @@ module Wishpond
 
   def self.ensure_logged_in
     visit Wishpond::LoginPage do |page|
+      return if page.logged_in?
       page.login_with USERNAME, PASSWORD
       page.should be_logged_in
     end

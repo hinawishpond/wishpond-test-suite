@@ -6,7 +6,7 @@ class Wishpond::LoginPage < GenericBasePage
 	element(:username_field) { |b| b.text_field(name: 'user[email]') }
   element(:password_field) { |b| b.text_field(name: 'user[password]') }
   element(:login_button) { |b| b.button(name: 'commit') }
-  element(:logged_in) { |b| b.div(id: 'site_content') }
+  element(:logged_in) { |b| b.link(id: 'nav_account') }
 
   value(:logged_in?) { |p| p.logged_in.exists? }
 
