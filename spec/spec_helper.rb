@@ -10,7 +10,7 @@ require 'env_config'
 require 'wishpond'
 require 'pages'
 
-browser ||= Watir::Browser.new :firefox
+browser ||= Watir::Browser.new :chrome
 
 RSpec.configure do |config|
 

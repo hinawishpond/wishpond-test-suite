@@ -19,6 +19,10 @@ module Wishpond
     Quoth.get
   end
 
+  def user_name
+    USERNAME
+  end
+
   def self.ensure_logged_in
     visit Wishpond::LoginPage do |page|
       return if page.logged_in?

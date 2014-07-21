@@ -5,6 +5,8 @@ describe 'Wishpond Authentication' do
       Wishpond.ensure_logged_in
     end
 
+#ToDO
+=begin
     it 'should be able to log out' do
       pending
     end
@@ -37,5 +39,9 @@ describe 'Wishpond Authentication' do
       pending
     end
   end
+
+=end
+
+end
 
 end
