@@ -5,9 +5,9 @@
 * Clone the repo
 
 ```
-mkdir ~/wishpond-test-suite
-cd ~/wishpond-test-suite
-git clone git@github.com:hinawishpond/wishpond-test-suite.git
+mkdir ~/watir-rspec-automated-suite
+cd ~/watir-rspec-automated-suite
+git clone git@github.com:innni/watir-rspec-automated-suite.git
 ```
 
 * Bundle install
